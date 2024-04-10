@@ -1,0 +1,23 @@
+﻿@model NearMissReportViewModel
+
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<h1>@Model.Title</h1>
+<div class="card" style="width: 90%;padding:20px; margin:20px;">
+    <div class="card-body">
+        <p>Date of Report: @Model.DateOfReport.ToShortDateString()</p>
+        <p>Location: @Model.Location</p>
+        <p>Date and Time Spotted: @Model.DateAndTimeSpotted</p>
+        <p>Type of Hazard: @Model.TypeOfHazard</p>
+        <p>Description: @Model.Description</p>
+        <p>Status: @Model.Status</p>
+        <p>Reporter Email: @Model.ReporterEmail</p>
+        <p>Reporter Phone: @Model.ReporterPhone</p>
+        <p>Optional Photo: @Model.OptionalPhoto</p>
+        <p>Upvotes: @Model.Upvotes</p>
+    </div>
+</div>
+
+<a asp-controller="NearMissReport" asp-action="Index" class="btn btn-primary">Back to list</a>
