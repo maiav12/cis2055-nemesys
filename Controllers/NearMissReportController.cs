@@ -21,7 +21,13 @@ namespace NEMESYS.Controllers
         // GET: NearMissReport
         public async Task<IActionResult> Index()
         {
-            return View(await _context.NearMissReports.ToListAsync());
+            var viewModel = new NearMissReportListViewModel
+            {
+                TotalEntries = await _context.NearMissReports.CountAsync(),
+                NearMissReports = await _context.NearMissReports.Include(n => n.Location).Include(n => n.ReporterEmail).ToListAsync()
+            };
+
+            return View(viewModel);
         }
 
         // GET: NearMissReport/Details/5
