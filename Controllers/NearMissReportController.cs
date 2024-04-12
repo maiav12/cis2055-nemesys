@@ -1,13 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Nemesys.Models;
+using Nemesys.Models.Interfaces;
 using Nemesys.Data;
 using System;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Nemesys.ViewModels;
 
-namespace NEMESYS.Controllers
+namespace Nemesys.Controllers
 {
     public class NearMissReportController : Controller
     {
@@ -21,11 +23,32 @@ namespace NEMESYS.Controllers
         // GET: NearMissReport
         public async Task<IActionResult> Index()
         {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        // GET: NearMissReport
+        // GET: NearMissReport
+        public async Task<IActionResult> Index(string searchString)
+        {
             var viewModel = new NearMissReportListViewModel
             {
                 TotalEntries = await _context.NearMissReports.CountAsync(),
-                NearMissReports = await _context.NearMissReports.Include(n => n.Location).Include(n => n.ReporterEmail).ToListAsync()
+                NearMissReports = await _context.NearMissReports
+                    .Include(n => n.Location)
+                    .ToListAsync()
             };
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                viewModel.FilteredNearMissReports = viewModel.NearMissReports
+                    .Where(s => s.Location.Contains(searchString) || s.ReporterEmail.Contains(searchString))
+                    .ToList();
+            }
+            else
+            {
+                viewModel.FilteredNearMissReports = viewModel.NearMissReports;
+            }
 
             return View(viewModel);
         }
@@ -49,10 +72,11 @@ namespace NEMESYS.Controllers
         }
 
         // GET: NearMissReport/Create
-        public IActionResult Create()
-        {
-            return View();
-        }
+       public IActionResult Create()
+{
+    var viewModel = new EditNearMissReportViewModel(); // Create an instance of EditNearMissReportViewModel
+    return View(viewModel); // Pass the view model to the view
+}
 
         // POST: NearMissReport/Create
         
@@ -84,6 +108,7 @@ namespace NEMESYS.Controllers
 
             return View(nearMissReport);
         }
+
 
         // POST: NearMissReport/Edit/5
         [HttpPost]
@@ -134,6 +159,7 @@ namespace NEMESYS.Controllers
 
             return View(nearMissReport);
         }
+
         private bool NearMissReportExists(int id)
         {
             return _context.NearMissReports.Any(e => e.Id == id);
