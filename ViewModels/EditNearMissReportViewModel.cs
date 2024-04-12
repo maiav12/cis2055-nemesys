@@ -42,8 +42,5 @@ namespace Nemesys.ViewModels
 
         [Display(Name = "Upvotes")]
         public int Upvotes { get; set; }
-        public object Title { get; internal set; }
-
-       
     }
 }

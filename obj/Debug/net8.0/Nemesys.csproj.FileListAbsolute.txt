@@ -292,4 +292,3 @@ C:\Users\clare\source\repos\cis2055-nemesys\obj\Debug\net8.0\refint\Nemesys.dll
 C:\Users\clare\source\repos\cis2055-nemesys\obj\Debug\net8.0\Nemesys.pdb
 C:\Users\clare\source\repos\cis2055-nemesys\obj\Debug\net8.0\Nemesys.genruntimeconfig.cache
 C:\Users\clare\source\repos\cis2055-nemesys\obj\Debug\net8.0\ref\Nemesys.dll
-C:\Users\clare\source\repos\cis2055-nemesys\obj\Debug\net8.0\Nemesys.sourcelink.json

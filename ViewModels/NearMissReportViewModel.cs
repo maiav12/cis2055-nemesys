@@ -6,13 +6,11 @@ namespace Nemesys.ViewModels
     public class NearMissReportViewModel
     {
         public int Id { get; set; }
-        public string Title { get; set; }
-
 
         //The [Display] attribute is used to specify        
         //the display name for each property when rendering the view.
-
-
+        
+    
 
         [Display(Name = "Date of Report")]
         public DateTime DateOfReport { get; set; }
