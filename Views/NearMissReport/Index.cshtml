@@ -6,19 +6,35 @@
 
 <h1>@ViewData["Title"]</h1>
 
-<h2>Showing @Model.TotalEntries near-miss reports</h2>
+@if (Model != null && Model.TotalEntries != null)
+{
+    <h2>Showing @Model.TotalEntries near-miss reports</h2>
+}
+else
+{
+    <h2>No near-miss reports available</h2>
+}
+
 <div class="row">
-    @foreach (var report in Model.NearMissReports)
+    @if (Model != null && Model.NearMissReports != null)
     {
-        <div class="card" style="width: 18rem;padding:20px; margin:20px;">
-            <div class="card-body">
-                <h3 class="card-title">@report.Location</h3>
-                <p class="small">Date of Report: @report.DateOfReport.ToShortDateString()</p>
-                <p class="small">Hazard Type: @report.TypeOfHazard</p>
-                <p>@report.Description</p>
-                <p class="small">Status: @report.Status</p>
-                <a href="#" class="btn btn-primary">Details</a>
+        @foreach (var report in Model.NearMissReports)
+        {
+            <div class="card" style="width: 18rem;padding:20px; margin:20px;">
+                <div class="card-body">
+                    <h3 class="card-title">@report.Location</h3>
+                    <p class="small">Date of Report: @report.DateOfReport.ToShortDateString()</p>
+                    <p class="small">Hazard Type: @report.TypeOfHazard</p>
+                    <p>@report.Description</p>
+                    <p class="small">Status: @report.Status</p>
+                    <a href="#" class="btn btn-primary">Details</a>
+                </div>
             </div>
-        </div>
+        }
+    }
+    else
+    {
+        <p>No near-miss reports available</p>
     }
 </div>
+
