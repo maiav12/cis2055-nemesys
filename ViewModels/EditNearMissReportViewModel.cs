@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
+
 namespace Nemesys.ViewModels
 {
     public class EditNearMissReportViewModel
@@ -26,24 +27,24 @@ namespace Nemesys.ViewModels
         [Display(Name = "Description")]
         public string Description { get; set; }
 
+        [Required(ErrorMessage = "The Status field is required.")]
         [Display(Name = "Status")]
         public string Status { get; set; }
 
+        [Display(Name = "Reporter Email")]
         [Required(ErrorMessage = "The Reporter Email field is required.")]
         [EmailAddress(ErrorMessage = "Invalid email address.")]
-        [Display(Name = "Reporter Email")]
         public string ReporterEmail { get; set; }
 
         [Display(Name = "Reporter Phone")]
         public string ReporterPhone { get; set; }
 
         [Display(Name = "Optional Photo")]
+    
         public string OptionalPhoto { get; set; }
 
         [Display(Name = "Upvotes")]
         public int Upvotes { get; set; }
-        public object Title { get; internal set; }
-
-       
     }
 }
+
