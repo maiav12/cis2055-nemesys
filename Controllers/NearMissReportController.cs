@@ -70,32 +70,22 @@ namespace Nemesys.Controllers
 
             return View(nearMissReport);
         }
+
         // GET: NearMissReport/Create
-        public IActionResult Create()
-        {
-            var viewModel = new EditNearMissReportViewModel();
-            return View(viewModel);
-        }
+       public IActionResult Create()
+{
+    var viewModel = new EditNearMissReportViewModel(); // Create an instance of EditNearMissReportViewModel
+    return View(viewModel); // Pass the view model to the view
+}
 
         // POST: NearMissReport/Create
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(EditNearMissReportViewModel viewModel, IFormFile photoUrl)
+        public async Task<IActionResult> Create(NearMissReport nearMissReport, IFormFile photoUrl)
         {
             if (ModelState.IsValid)
             {
-                var nearMissReport = new NearMissReport
-                {
-                    DateOfReport = viewModel.DateOfReport,
-                    Location = viewModel.Location,
-                    DateTimeSpotted = viewModel.DateAndTimeSpotted,
-                    TypeOfHazard = Enum.Parse<HazardType>(viewModel.TypeOfHazard),
-                    Description = viewModel.Description,
-                    Status = Enum.Parse<ReportStatus>(viewModel.Status),
-                    ReporterEmail = viewModel.ReporterEmail,
-                    ReporterPhone = viewModel.ReporterPhone
-                };
-
                 if (photoUrl != null)
                 {
                     string fileName = Path.GetFileName(photoUrl.FileName);
@@ -116,17 +106,16 @@ namespace Nemesys.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            return View(viewModel);
+            return View(nearMissReport);
         }
-
 
 
         // POST: NearMissReport/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, EditNearMissReportViewModel viewModel, IFormFile photoUrl)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,DateSpotted,HazardType,ImageToUpload")] NearMissReport nearMissReport, IFormFile photoUrl)
         {
-            if (id != viewModel.Id)
+            if (id != nearMissReport.Id)
             {
                 return NotFound();
             }
@@ -135,21 +124,6 @@ namespace Nemesys.Controllers
             {
                 try
                 {
-                    var nearMissReport = await _context.NearMissReports.FindAsync(id);
-                    if (nearMissReport == null)
-                    {
-                        return NotFound();
-                    }
-
-                    // Map properties from viewModel to nearMissReport entity
-                    nearMissReport.Location = viewModel.Location;
-                    nearMissReport.DateTimeSpotted = viewModel.DateAndTimeSpotted;
-                    nearMissReport.TypeOfHazard = Enum.Parse<HazardType>(viewModel.TypeOfHazard);
-                    nearMissReport.Description = viewModel.Description;
-                    nearMissReport.Status = Enum.Parse<ReportStatus>(viewModel.Status);
-                    nearMissReport.ReporterEmail = viewModel.ReporterEmail;
-                    nearMissReport.ReporterPhone = viewModel.ReporterPhone;
-
                     if (photoUrl != null)
                     {
                         string fileName = Path.GetFileName(photoUrl.FileName);
@@ -170,7 +144,7 @@ namespace Nemesys.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!NearMissReportExists(viewModel.Id))
+                    if (!NearMissReportExists(nearMissReport.Id))
                     {
                         return NotFound();
                     }
@@ -183,7 +157,7 @@ namespace Nemesys.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            return View(viewModel);
+            return View(nearMissReport);
         }
 
         private bool NearMissReportExists(int id)
