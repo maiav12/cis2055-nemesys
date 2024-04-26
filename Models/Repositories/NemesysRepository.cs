@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Nemesys.Models.Contexts;
@@ -8,79 +9,177 @@ namespace Nemesys.Models.Repositories
 {
     public class NemesysRepository : INemesysRepository
     {
-        private readonly AppDbContext _appDbContext;
+        private readonly ApplicationDbContext _appDbContext;
+        private readonly ILogger<NemesysRepository> _logger;
 
-        public NemesysRepository(AppDbContext appDbContext)
+        public NemesysRepository(ApplicationDbContext appDbContext, ILogger<NemesysRepository> logger)
         {
             _appDbContext = appDbContext;
+            _logger = logger;
         }
 
-        public IEnumerable<NearMissReport> GetAllNearMissReports()
-        {
-            return _appDbContext.NearMissReports
-                .Include(r => r.Investigation)
-                .OrderByDescending(r => r.DateOfReport)
-                .ToList();
-        }
+		public IEnumerable<NearMissReport> GetAllNearMissReports()
+		{
+            try 
 
-        public NearMissReport GetNearMissReportById(int nearMissReportId)
-        {
-            return _appDbContext.NearMissReports
-                .Include(r => r.Investigation)
-                .FirstOrDefault(r => r.Id == nearMissReportId);
-        }
+			{//Using Eager loading with Include
+                return _appDbContext.NearMissReports.OrderBy(r => r.DateOfReport); 
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message, ex);
+                throw;
+            }
+		}
 
-        public void AddNearMissReport(NearMissReport report)
-        {
-            _appDbContext.NearMissReports.Add(report);
-            _appDbContext.SaveChanges();
-        }
+		public NearMissReport GetNearMissReportById(int nearMissReportId)
+		{
+            try 
+			{ return _appDbContext.NearMissReports
+                .FirstOrDefault(r => r.Id == nearMissReportId); 
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError(ex.Message, ex);
+                throw;
+            }
+		}
 
-        public void UpdateNearMissReport(NearMissReport report)
+		public void AddNearMissReport(NearMissReport report)
         {
-            _appDbContext.NearMissReports.Update(report);
-            _appDbContext.SaveChanges();
+            try 
+			
+                
+            {
+                _appDbContext.NearMissReports.Add(report);
+                _appDbContext.SaveChanges(); 
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError(ex.Message, ex);
+                throw;
+            }
+			}
+
+
+
+        public void UpdateNearMissReport(NearMissReport nearMissReport)
+        {
+            try 
+           { 
+                var existingReport = _appDbContext.NearMissReports.SingleOrDefault(r => r.Id == nearMissReport.Id);
+                if (existingReport != null)
+                {
+                    existingReport.Title = nearMissReport.Title;
+                    existingReport.DateOfReport = nearMissReport.DateOfReport;
+                    existingReport.Location = nearMissReport.Location;
+                    existingReport.DateAndTimeSpotted = nearMissReport.DateAndTimeSpotted;
+                    existingReport.TypeOfHazard = nearMissReport.TypeOfHazard;
+                    existingReport.Description = nearMissReport.Description;
+                    existingReport.Status = nearMissReport.Status;
+                    existingReport.ReporterEmail = nearMissReport.ReporterEmail;
+                    existingReport.ReporterPhone = nearMissReport.ReporterPhone;
+                    existingReport.OptionalPhoto = nearMissReport.OptionalPhoto;
+                    existingReport.Upvotes = nearMissReport.Upvotes;
+
+                    _appDbContext.Entry(existingReport).State = EntityState.Modified;
+                    _appDbContext.SaveChanges();
+                } 
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError(ex.Message, ex);
+                throw;
+            }
         }
 
         public void DeleteNearMissReport(int nearMissReportId)
         {
-            var report = _appDbContext.NearMissReports.Find(nearMissReportId);
-            if (report != null)
+            try 
             {
-                _appDbContext.NearMissReports.Remove(report);
-                _appDbContext.SaveChanges();
+                var report = _appDbContext.NearMissReports.Find(nearMissReportId);
+                if (report != null)
+                {
+                    _appDbContext.NearMissReports.Remove(report);
+                    _appDbContext.SaveChanges();
+                } 
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError(ex.Message, ex );
+                throw;
             }
         }
 
         public IEnumerable<Investigation> GetAllInvestigations()
         {
-            return _appDbContext.Investigations.ToList();
+            try 
+            { 
+                return _appDbContext.Investigations.ToList(); 
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message, ex);
+                throw;
+            }
         }
 
         public Investigation GetInvestigationById(int investigationId)
         {
-            return _appDbContext.Investigations.Find(investigationId);
+            try 
+            { 
+                return _appDbContext.Investigations.Find(investigationId); 
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message, ex);
+                throw;
+            }
         }
 
         public void AddInvestigation(Investigation investigation)
         {
-            _appDbContext.Investigations.Add(investigation);
-            _appDbContext.SaveChanges();
+            try 
+            {
+                _appDbContext.Investigations.Add(investigation);
+                _appDbContext.SaveChanges(); 
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message, ex);
+                throw;
+            }
         }
 
         public void UpdateInvestigation(Investigation investigation)
         {
-            _appDbContext.Investigations.Update(investigation);
-            _appDbContext.SaveChanges();
+            try 
+            {
+                _appDbContext.Investigations.Update(investigation);
+                _appDbContext.SaveChanges(); 
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message, ex);
+                throw;
+            }
         }
 
         public void DeleteInvestigation(int investigationId)
         {
+            try
+            { 
             var investigation = _appDbContext.Investigations.Find(investigationId);
-            if (investigation != null)
+                if (investigation != null)
+                {
+                    _appDbContext.Investigations.Remove(investigation);
+                    _appDbContext.SaveChanges();
+                } 
+            }
+            catch (Exception ex)
             {
-                _appDbContext.Investigations.Remove(investigation);
-                _appDbContext.SaveChanges();
+                _logger.LogError(ex.Message, ex);
+                throw;
             }
         }
     }

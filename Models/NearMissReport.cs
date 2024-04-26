@@ -1,61 +1,52 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity;
+using System;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Identity;
 
 namespace Nemesys.Models
 {
     public class NearMissReport
     {
         public int Id { get; set; }
+        public string Title { get; set; }
 
+        [Required]
         [Display(Name = "Date of Report")]
         public DateTime DateOfReport { get; set; }
 
-        [Required(ErrorMessage = "Location is required")]
+        [Required]
+        [Display(Name = "Location")]
         public string Location { get; set; }
 
+        [Required]
         [Display(Name = "Date and Time Spotted")]
-        public DateTime DateTimeSpotted { get; set; }
+        public DateTime DateAndTimeSpotted { get; set; }
 
-        [Required(ErrorMessage = "Type of Hazard is required")]
-        [EnumDataType(typeof(HazardType), ErrorMessage = "Invalid Hazard Type")]
-        public HazardType TypeOfHazard { get; set; }
+        [Required]
+        [Display(Name = "Type of Hazard")]
+        public string TypeOfHazard { get; set; }
 
-        [Required(ErrorMessage = "Description is required")]
+        [Required]
+        [Display(Name = "Description")]
         public string Description { get; set; }
 
-        public ReportStatus Status { get; set; } = ReportStatus.Open;
+        [Display(Name = "Status")]
+        public string? Status { get; set; } // Nullable status property
 
-        [Required(ErrorMessage = "Reporter's Email is required")]
-        [EmailAddress(ErrorMessage = "Invalid Email Address")]
-        [Display(Name = "Reporter's Email")]
+        [Required]
+        [Display(Name = "Reporter Email")]
         public string ReporterEmail { get; set; }
 
-        [Phone(ErrorMessage = "Invalid Phone Number")]
-        [Display(Name = "Reporter's Phone (Optional)")]
-        public string ReporterPhone { get; set; }
+        [Display(Name = "Reporter Phone")]
+        public string? ReporterPhone { get; set; } // Nullable phone property
 
         [Display(Name = "Optional Photo")]
-        public string PhotoUrl { get; set; }
+        public string? OptionalPhoto { get; set; } // Nullable photo property
 
+        [Display(Name = "Upvotes")]
         public int Upvotes { get; set; }
-
-        // Navigation property for investigation
-        public Investigation Investigation { get; set; }
-    }
-
-    public enum HazardType
-    {
-        UnsafeAct,
-        Condition,
-        Equipment,
-        Structure
-    }
-
-    public enum ReportStatus
-    {
-        Open,
-        BeingInvestigated,
-        NoActionRequired,
-        Closed
+        //Foreign Key - navigation property
+        public string UserId { get; set; }
+        public IdentityUser User { get; set; }
     }
 }

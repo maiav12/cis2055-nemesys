@@ -5,14 +5,13 @@ namespace Nemesys.ViewModels
 {
     public class NearMissReportViewModel
     {
+        public NearMissReportViewModel()
+        {
+            DateOfReport = DateTime.Now; //setting date and time to when report is being created
+            Status = "Open";
+        }
         public int Id { get; set; }
         public string Title { get; set; }
-
-
-        //The [Display] attribute is used to specify        
-        //the display name for each property when rendering the view.
-
-
 
         [Display(Name = "Date of Report")]
         public DateTime DateOfReport { get; set; }
@@ -20,7 +19,7 @@ namespace Nemesys.ViewModels
         [Display(Name = "Location")]
         public string Location { get; set; }
 
-        [Display(Name = "Date and Time Spotted")] 
+        [Display(Name = "Date and Time Spotted")]
         public DateTime DateAndTimeSpotted { get; set; }
 
         [Display(Name = "Type of Hazard")]
@@ -43,5 +42,10 @@ namespace Nemesys.ViewModels
 
         [Display(Name = "Upvotes")]
         public int Upvotes { get; set; }
+
+        public ReporterViewModel Reporter { get; set; }
+
+        public InvestigationViewModel Investigation { get; set; }
     }
 }
+

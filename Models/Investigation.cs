@@ -20,16 +20,17 @@ namespace Nemesys.Models
 
         [Phone(ErrorMessage = "Invalid Phone Number")]
         [Display(Name = "Investigator's Phone (Optional)")]
-        public string InvestigatorPhone { get; set; }
+        public string? InvestigatorPhone { get; set; } // Nullable phone property
 
-        [EnumDataType(typeof(ReportStatus), ErrorMessage = "Invalid Report Status")]
         [Display(Name = "Report Status")]
-        public ReportStatus ReportStatus { get; set; }
+        public string ReportStatus { get; set; }
 
         // Foreign key property for associated NearMissReport
         public int NearMissReportId { get; set; }
 
         // Navigation property for associated NearMissReport
         public NearMissReport NearMissReport { get; set; }
+
+
     }
 }

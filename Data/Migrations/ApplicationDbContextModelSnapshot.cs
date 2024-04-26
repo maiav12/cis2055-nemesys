@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Nemesys.Data;
+using Nemesys.Models.Contexts;
 
 #nullable disable
 
@@ -47,6 +47,22 @@ namespace Nemesys.Data.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "d234f58e-7373-4ee5-98f0-c17892784b05",
+                            ConcurrencyStamp = "1",
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
+                        },
+                        new
+                        {
+                            Id = "1db56103-a3e2-4edc-afab-abde856cebe0",
+                            ConcurrencyStamp = "1",
+                            Name = "User",
+                            NormalizedName = "USER"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -137,6 +153,25 @@ namespace Nemesys.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "27332294-dbf7-4e17-ae9a-ea9ee1577b1b",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "d93244a4-993f-440e-83a7-e5feaf797023",
+                            Email = "admin@mail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "ADMIN@MAIL.COM",
+                            NormalizedUserName = "ADMIN@MAIL.COM",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFWEqhcyU4SXO+tG7xwR82b6Pp1e/xUgaJGmyRmY9MoDDRkjPyXePwBbUZpW8+2u8g==",
+                            PhoneNumber = "",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "1ec4659e-1736-430c-9af9-e26006dba26e",
+                            TwoFactorEnabled = false,
+                            UserName = "admin@mail.com"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -201,6 +236,13 @@ namespace Nemesys.Data.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "27332294-dbf7-4e17-ae9a-ea9ee1577b1b",
+                            RoleId = "d234f58e-7373-4ee5-98f0-c17892784b05"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -222,6 +264,129 @@ namespace Nemesys.Data.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("Nemesys.Models.Investigation", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("DateOfAction")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("InvestigatorEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("InvestigatorPhone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("NearMissReportId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ReportStatus")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NearMissReportId");
+
+                    b.ToTable("Investigations");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            DateOfAction = new DateTime(2024, 4, 24, 10, 13, 11, 715, DateTimeKind.Utc).AddTicks(9320),
+                            Description = "Example Investigation Description",
+                            InvestigatorEmail = "investigator@email.com",
+                            InvestigatorPhone = "987-654-3210",
+                            NearMissReportId = 1,
+                            ReportStatus = "Open"
+                        });
+                });
+
+            modelBuilder.Entity("Nemesys.Models.NearMissReport", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("DateAndTimeSpotted")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DateOfReport")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OptionalPhoto")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ReporterEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ReporterPhone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TypeOfHazard")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Upvotes")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("NearMissReports");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            DateAndTimeSpotted = new DateTime(2024, 4, 24, 10, 13, 11, 715, DateTimeKind.Utc).AddTicks(9260),
+                            DateOfReport = new DateTime(2024, 4, 24, 10, 13, 11, 715, DateTimeKind.Utc).AddTicks(9255),
+                            Description = "Example Description",
+                            Location = "Example Location",
+                            OptionalPhoto = "/images/seed2.jpg",
+                            ReporterEmail = "example@email.com",
+                            ReporterPhone = "123-456-7890",
+                            Status = "Open",
+                            Title = "Example Title",
+                            TypeOfHazard = "UnsafeAct",
+                            Upvotes = 0,
+                            UserId = "d234f58e-7373-4ee5-98f0-c17892784b05"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -273,6 +438,28 @@ namespace Nemesys.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Nemesys.Models.Investigation", b =>
+                {
+                    b.HasOne("Nemesys.Models.NearMissReport", "NearMissReport")
+                        .WithMany()
+                        .HasForeignKey("NearMissReportId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("NearMissReport");
+                });
+
+            modelBuilder.Entity("Nemesys.Models.NearMissReport", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }

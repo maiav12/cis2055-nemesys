@@ -1,23 +1,35 @@
-﻿@model NearMissReportViewModel
+﻿@using Microsoft.AspNetCore.Identity
+@model NearMissReportViewModel
+@inject UserManager<IdentityUser> UserManager
 
 @{
     ViewData["Title"] = Model.Title;
 }
 
-<h1>@Model.Title</h1>
+<h1>@Model.Title]</h1>
 <div class="card" style="width: 90%;padding:20px; margin:20px;">
+    <img class="card-img-top" src="@Model.OptionalPhoto" alt="Image for @Model.Title" />
     <div class="card-body">
-        <p>Date of Report: @Model.DateOfReport.ToShortDateString()</p>
-        <p>Location: @Model.Location</p>
-        <p>Date and Time Spotted: @Model.DateAndTimeSpotted</p>
-        <p>Type of Hazard: @Model.TypeOfHazard</p>
-        <p>Description: @Model.Description</p>
-        <p>Status: @Model.Status</p>
-        <p>Reporter Email: @Model.ReporterEmail</p>
-        <p>Reporter Phone: @Model.ReporterPhone</p>
-        <p>Optional Photo: @Model.OptionalPhoto</p>
-        <p>Upvotes: @Model.Upvotes</p>
+        <h3 class="card-title">@Model.Title</h3>
+        <p class="small">Date of Report: @Model.DateOfReport.ToShortDateString()</p>
+        <p class="small">Hazard Type: @Model.TypeOfHazard</p>
+        <p class ="small">Description: @Model.Description</p>
+        <p class="small">Status: @Model.Status</p>
+        <p class="small">Location: @Model.Location</p>
+        <p class="small">Date and Time Spotted: @Model.DateAndTimeSpotted</p>
+        <p class ="small">Reporter Email: @Model.ReporterEmail</p>
+        <p class="small" >Reporter Phone: @Model.ReporterPhone</p>
+        <p class ="small">Optional Photo: @Model.OptionalPhoto</p>
+        <p class="small">Upvotes: @Model.Upvotes</p>
     </div>
 </div>
+
+@if (User.Identity.IsAuthenticated)
+{
+    if (UserManager.GetUserAsync(User).Result.Id == Model.Reporter.Id)
+    {
+        <a asp-controller="NearMissReport" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-outline-primary">Edit</a>
+    }
+}
 
 <a asp-controller="NearMissReport" asp-action="Index" class="btn btn-primary">Back to list</a>

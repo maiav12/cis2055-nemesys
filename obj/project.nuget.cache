@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n8+w/YWvJAxmFnJgA9scqqgcG/GTuzkmcCgQJny0w+YugZ6mytA67Iyd/DJoWKSgb/hw32qKeaKDwMN/uErEaQ==",
+  "dgSpecHash": "9oAvUzHMKOuSaInAzyK0oUHiVhJPWPjMLuNBKZl/lH5ArtJmPvORS0z+XaNR/kzL5bqyimtsWCq5Q0VBX1zUrA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\clare\\source\\repos\\cis2055-nemesys\\Nemesys.csproj",
+  "projectFilePath": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Nemesys.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\clare\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\clare\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

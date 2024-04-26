@@ -17,5 +17,7 @@ namespace Nemesys.Models.Interfaces
         void AddInvestigation(Investigation investigation);
         void UpdateInvestigation(Investigation investigation);
         void DeleteInvestigation(int investigationId);
+
+        
     }
 }

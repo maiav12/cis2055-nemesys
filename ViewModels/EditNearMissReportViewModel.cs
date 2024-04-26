@@ -7,6 +7,9 @@ namespace Nemesys.ViewModels
     {
         public int Id { get; set; }
 
+        [Required(ErrorMessage = "Title is required")]
+        public string Title { get; set; }
+
         [Display(Name = "Date of Report")]
         public DateTime DateOfReport { get; set; }
 
@@ -26,9 +29,6 @@ namespace Nemesys.ViewModels
         [Display(Name = "Description")]
         public string Description { get; set; }
 
-        [Display(Name = "Status")]
-        public string Status { get; set; }
-
         [Required(ErrorMessage = "The Reporter Email field is required.")]
         [EmailAddress(ErrorMessage = "Invalid email address.")]
         [Display(Name = "Reporter Email")]
@@ -38,12 +38,11 @@ namespace Nemesys.ViewModels
         public string ReporterPhone { get; set; }
 
         [Display(Name = "Optional Photo")]
-        public string OptionalPhoto { get; set; }
+        public IFormFile? OptionalPhoto { get; set; }
 
         [Display(Name = "Upvotes")]
         public int Upvotes { get; set; }
-        public object Title { get; internal set; }
 
-       
+        public List<InvestigationViewModel> InvestigationList { get; set; }
     }
 }

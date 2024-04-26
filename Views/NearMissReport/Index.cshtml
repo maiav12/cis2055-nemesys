@@ -1,4 +1,4 @@
-﻿@model Nemesys.ViewModels.NearMissReportListViewModel
+﻿@model NearMissReportListViewModel
 
 @{
     ViewData["Title"] = "Near Miss Reports";
@@ -6,35 +6,23 @@
 
 <h1>@ViewData["Title"]</h1>
 
-@if (Model != null && Model.TotalEntries != null)
-{
-    <h2>Showing @Model.TotalEntries near-miss reports</h2>
-}
-else
-{
-    <h2>No near-miss reports available</h2>
-}
-
 <div class="row">
-    @if (Model != null && Model.NearMissReports != null)
-    {
+   
         @foreach (var report in Model.NearMissReports)
         {
             <div class="card" style="width: 18rem;padding:20px; margin:20px;">
+            <img class="card-img-top" src="@report.OptionalPhoto" alt="Image for @report.Title" />
                 <div class="card-body">
-                    <h3 class="card-title">@report.Location</h3>
+                    <h3 class="card-title">@report.Title </h3>
                     <p class="small">Date of Report: @report.DateOfReport.ToShortDateString()</p>
                     <p class="small">Hazard Type: @report.TypeOfHazard</p>
                     <p>@report.Description</p>
                     <p class="small">Status: @report.Status</p>
-                    <a href="#" class="btn btn-primary">Details</a>
-                </div>
+                    <a asp-controller="NearMissReport" asp-action="Details" asp-route-id="@report.Id" class="btn btn-primary">Details</a>
+            </div>
             </div>
         }
-    }
-    else
-    {
-        <p>No near-miss reports available</p>
-    }
+    
+   
 </div>
 
