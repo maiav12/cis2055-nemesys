@@ -1,0 +1,43 @@
+﻿@model Nemesys.ViewModels.HallOfFameViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hall of Fame</title>
+</head>
+<body>
+    <h1>Hall of Fame</h1>
+
+    <div>
+        <h2>Reporter Rankings</h2>
+
+        @if (Model.ReporterRankings.Any())
+        {
+            <table>
+                <thead>
+                    <tr>
+                        <th>Reporter Email</th>
+                        <th>Number of Reports</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var ranking in Model.ReporterRankings)
+                    {
+                        <tr>
+                            <td>@ranking.ReporterEmail</td>
+                            <td>@ranking.NumberOfReports</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p>No reporters found.</p>
+        }
+    </div>
+
+
+
+</body>
+</html>

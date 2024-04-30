@@ -1,0 +1,28 @@
+﻿@model NearMissReportListViewModel
+
+@{
+    ViewData["Title"] = "Near Miss Reports";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+   
+        @foreach (var report in Model.NearMissReports)
+        {
+            <div class="card" style="width: 18rem;padding:20px; margin:20px;">
+            <img class="card-img-top" src="@report.OptionalPhoto" alt="Image for @report.Title" />
+                <div class="card-body">
+                    <h3 class="card-title">@report.Title </h3>
+                    <p class="small">Date of Report: @report.DateOfReport.ToShortDateString()</p>
+                    <p class="small">Hazard Type: @report.TypeOfHazard</p>
+                    <p>@report.Description</p>
+                    <p class="small">Status: @report.Status</p>
+                    <a asp-controller="NearMissReport" asp-action="Details" asp-route-id="@report.Id" class="btn btn-primary">Details</a>
+            </div>
+            </div>
+        }
+    
+   
+</div>
+
