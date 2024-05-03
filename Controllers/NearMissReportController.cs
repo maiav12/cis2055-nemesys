@@ -142,25 +142,7 @@ namespace Nemesys.Controllers
         {
             try
             {
-                // Load all investigations and create a list of InvestigationViewModel
-                var investigationList = _nemesysRepository.GetAllInvestigations().Select(i => new InvestigationViewModel()
-                {
-                    Id = i.Id,
-                    Description = i.Description,
-                    DateOfAction = i.DateOfAction,
-                    InvestigatorEmail = i.InvestigatorEmail,
-                    InvestigatorPhone = i.InvestigatorPhone
-                }).ToList();
-
-
-
-
-                // Pass the lists into the view model
-                var model = new EditNearMissReportViewModel()
-                {
-                    InvestigationList = investigationList,
-
-                };
+                var model = new EditNearMissReportViewModel();
 
                 // Pass the view model to the view
                 return View(model);
@@ -171,6 +153,7 @@ namespace Nemesys.Controllers
                 return View("Error");
             }
         }
+
 
         [Authorize]
         [HttpPost]
@@ -235,7 +218,8 @@ namespace Nemesys.Controllers
                 if (existingNearMissReport != null)
                 {
                     var currentUserId = _userManager.GetUserId(User);
-                    if (existingNearMissReport.UserId == currentUserId || User.IsInRole("Administrator"))
+                    if (existingNearMissReport.UserId == currentUserId || User.IsInRole("Admin"))
+                        
                     {
                         var model = new EditNearMissReportViewModel()
                         {
@@ -250,18 +234,13 @@ namespace Nemesys.Controllers
                             Upvotes = existingNearMissReport.Upvotes
                         };
 
-                        // Load all investigations and create a list of InvestigationViewModel
-                        var investigationList = _nemesysRepository.GetAllInvestigations().Select(i => new InvestigationViewModel()
+                        // If the user is an admin, allow modification of report status
+                        if (User.IsInRole("Admin"))
                         {
-                            Id = i.Id,
-                            Description = i.Description,
-                            DateOfAction = i.DateOfAction,
-                            InvestigatorEmail = i.InvestigatorEmail,
-                            InvestigatorPhone = i.InvestigatorPhone
-                        }).ToList();
-
-                        // Attach to view model
-                        model.InvestigationList = investigationList;
+                            // Load all report status options
+                            var statusOptions = Enum.GetValues(typeof(ReportStatus)).Cast<ReportStatus>().ToList();
+                            model.StatusOptions = statusOptions;
+                        }
 
                         return View(model);
                     }
@@ -287,13 +266,14 @@ namespace Nemesys.Controllers
         [Authorize]
         public IActionResult Edit([FromRoute] int id, EditNearMissReportViewModel updatedNearMissReport)
         {
-            try {
-            var modelToUpdate = _nemesysRepository.GetNearMissReportById(id);
-            if (modelToUpdate == null)
+            try
             {
-                return NotFound();
-            }
-            var currentUserId = _userManager.GetUserId(User);
+                var modelToUpdate = _nemesysRepository.GetNearMissReportById(id);
+                if (modelToUpdate == null)
+                {
+                    return NotFound();
+                }
+                var currentUserId = _userManager.GetUserId(User);
                 if (modelToUpdate.UserId == currentUserId)
                 {
                     if (ModelState.IsValid)
@@ -312,6 +292,11 @@ namespace Nemesys.Controllers
                                 updatedNearMissReport.OptionalPhoto.CopyTo(bits);
                             }
                             modelToUpdate.OptionalPhoto = "/images/nearmissreports/" + fileName;
+                        }
+                        if (User.IsInRole("Admin"))
+                        {
+                            // Set the status to the value selected by the admin
+                            modelToUpdate.Status = updatedNearMissReport.SelectedStatus.ToString();
                         }
                         else
 
@@ -336,7 +321,8 @@ namespace Nemesys.Controllers
                     {
                         return View(updatedNearMissReport);
                     }
-                } else return Forbid(); 
+                }
+                else return Forbid();
             }
             catch (Exception ex)
             {
@@ -344,5 +330,76 @@ namespace Nemesys.Controllers
                 return View("Error");
             }
         }
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
+        public IActionResult CreateInvestigation(int id)
+        {
+            var model = new InvestigationViewModel();
+            // Optionally, you can pass the ID of the near miss report to the view model if needed
+            model.NearMissReportId = id;
+            return View(model);
+        }
+
+        [Authorize(Roles ="Admin")]
+        [HttpPost]
+        public IActionResult CreateInvestigation(InvestigationViewModel model)
+        {
+            try
+            {
+                // Validate model state
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                // Map view model to entity
+                var investigation = new Investigation
+                {
+                    Description = model.Description,
+                    DateOfAction = model.DateOfAction,
+                    InvestigatorEmail = model.InvestigatorEmail,
+                    InvestigatorPhone = model.InvestigatorPhone,
+                    NearMissReportId = model.NearMissReportId // Assuming you have a property to link the investigation to the report
+                };
+
+                // Add investigation to repository
+                _nemesysRepository.AddInvestigation(investigation);
+
+                return Ok(); // Return success status
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message, ex);
+                return StatusCode(500, "An error occurred while creating the investigation."); // Return error status
+            }
+        }
+        [Authorize(Roles = "Admin")]
+        public IActionResult UpdateStatus(int reportId, string status)
+        {
+            try
+            {
+                // Get the near miss report from repository
+                var nearMissReport = _nemesysRepository.GetNearMissReportById(reportId);
+                if (nearMissReport == null)
+                {
+                    return NotFound(); // Return not found status if report not found
+                }
+
+                // Update the status
+                nearMissReport.Status = status;
+
+                // Save changes
+                _nemesysRepository.UpdateNearMissReport(nearMissReport);
+
+                return RedirectToAction("Details", new { id = reportId });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message, ex);
+                return StatusCode(500, "An error occurred while updating the report status."); // Return error status
+            }
+        }
+
+
     }
-    }
+}

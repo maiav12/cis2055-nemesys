@@ -5,6 +5,7 @@ namespace Nemesys.ViewModels
 {
     public class InvestigationViewModel
     {
+        public int NearMissReportId { get; set; }
         public int Id { get; set; }
 
         [Display(Name = "Description")]

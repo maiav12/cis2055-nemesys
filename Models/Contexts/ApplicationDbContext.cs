@@ -17,6 +17,7 @@ namespace Nemesys.Models.Contexts
 
         // DbSet for Investigation entity
         public DbSet<Investigation> Investigations { get; set; }
+        public object Reports { get; internal set; }
 
         // Override OnModelCreating to configure data seeding
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -40,9 +41,14 @@ namespace Nemesys.Models.Contexts
                     NormalizedName = "USER"
                 }
             );
+            modelBuilder.Entity<Investigation>()
+       .HasOne(i => i.NearMissReport)
+       .WithOne(nr => nr.Investigation)
+       .HasForeignKey<Investigation>(i => i.NearMissReportId);
+        
 
-            // Seed admin user
-            IdentityUser adminUser = new IdentityUser
+        // Seed admin user
+        IdentityUser adminUser = new IdentityUser
             {
                 Id = Guid.NewGuid().ToString(),
                 UserName = "admin@mail.com",

@@ -25,7 +25,7 @@ namespace Nemesys.Controllers
         {
             try
             {
-                var model = new NemesysDashboardViewModel();
+                var model = new ReportDashboardViewModel();
                 model.TotalRegisteredUsers = _userManager.Users.Count();
                 model.TotalReports = _nemesysRepository.GetAllNearMissReports().Count();
 

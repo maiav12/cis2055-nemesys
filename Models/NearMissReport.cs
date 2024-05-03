@@ -48,5 +48,7 @@ namespace Nemesys.Models
         //Foreign Key - navigation property
         public string UserId { get; set; }
         public IdentityUser User { get; set; }
+        public UserRole Role { get; set; }
+        public Investigation Investigation { get; set; }
     }
 }

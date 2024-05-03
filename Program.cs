@@ -36,10 +36,25 @@ namespace Nemesys
                 options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
                 options.User.RequireUniqueEmail = true;
             })
+                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
+            builder.Services.AddLogging(options =>
+            {
+                //Clear all default providers
+                options.ClearProviders();
+                //Add the ones you need
+                options.AddConsole();
+                //options.AddEventLog();
+            });
+
             builder.Services.AddControllersWithViews();
-            builder.Services.AddScoped<INemesysRepository, NemesysRepository>();
+            //Register the repository as a service
+            if (builder.Environment.IsDevelopment())
+            {
+                builder.Services.AddTransient<INemesysRepository, NemesysRepository>();
+            }
+            
 
             var app = builder.Build();
 
@@ -54,18 +69,19 @@ namespace Nemesys
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
-
             app.UseHttpsRedirection();
+            app.UseStatusCodePages();
             app.UseStaticFiles();
-
             app.UseRouting();
 
             app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
-                 name: "default",
-                 pattern: "{controller=Home}/{action=Index}/{id?}");
+                name: "default",
+                pattern: "{controller=Home}/{action=Index}/{id?}");
+
+           
             app.MapRazorPages();
 
             app.Run();
