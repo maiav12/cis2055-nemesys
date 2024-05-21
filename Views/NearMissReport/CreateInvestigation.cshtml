@@ -1,0 +1,22 @@
+﻿@model Nemesys.ViewModels.InvestigationViewModel
+
+<!-- Investigation Form -->
+<form id="investigationForm" method="post" action="/NearMissReport/CreateInvestigation">
+    <div class="form-group">
+        <label for="description">Description:</label>
+        <textarea class="form-control" id="description" name="description" rows="3"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="dateOfAction">Date of Action:</label>
+        <input type="date" class="form-control" id="dateOfAction" name="dateOfAction">
+    </div>
+    <div class="form-group">
+        <label for="investigatorEmail">Investigator Email:</label>
+        <input type="email" class="form-control" id="investigatorEmail" name="investigatorEmail">
+    </div>
+    <div class="form-group">
+        <label for="investigatorPhone">Investigator Phone:</label>
+        <input type="text" class="form-control" id="investigatorPhone" name="investigatorPhone">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

@@ -1,8 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Nemesys.ViewModels
 {
+    public enum ReportStatus
+    {
+        Open,
+        BeingInvestigated,
+        Closed,
+        NoActionRequired
+    }
+
     public class EditNearMissReportViewModel
     {
         public int Id { get; set; }
@@ -43,6 +52,12 @@ namespace Nemesys.ViewModels
         [Display(Name = "Upvotes")]
         public int Upvotes { get; set; }
 
-        public List<InvestigationViewModel> InvestigationList { get; set; }
+        // Add property for report status options
+        [Display(Name = "Report Status")]
+        public ReportStatus SelectedStatus { get; set; }
+        
+        // List to store investigation details
+       
+        public List<ReportStatus> StatusOptions { get; set; } = Enum.GetValues(typeof(ReportStatus)).Cast<ReportStatus>().ToList();
     }
 }

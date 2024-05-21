@@ -1,77 +1,209 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\",
+  "WorkspaceRootPath": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\views\\nearmissreport\\createinvestigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:views\\nearmissreport\\createinvestigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\models\\nearmissreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\models\\nearmissreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:models\\nearmissreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\controllers\\nearmissreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\controllers\\nearmissreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:controllers\\nearmissreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\models\\repositories\\nemesysrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:models\\repositories\\nemesysrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\data\\migrations\\20240422130932_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:data\\migrations\\20240422130932_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\models\\interfaces\\inemesysrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:models\\interfaces\\inemesysrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\viewmodels\\reporterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:viewmodels\\reporterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\models\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:models\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\data\\migrations\\20240422144327_test5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:data\\migrations\\20240422144327_test5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\models\\investigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:models\\investigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\data\\migrations\\20240424065238_addedidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:data\\migrations\\20240424065238_addedidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\views\\nearmissreport\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:views\\nearmissreport\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\data\\migrations\\20240424095555_adduseridtonearmissreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:data\\migrations\\20240424095555_adduseridtonearmissreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\data\\migrations\\20240424101314_updatenearmissreporttitlecolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:data\\migrations\\20240424101314_updatenearmissreporttitlecolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\views\\nearmissreport\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:views\\nearmissreport\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\viewmodels\\editnearmissreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:viewmodels\\editnearmissreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\viewmodels\\investigationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\viewmodels\\investigationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:viewmodels\\investigationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\viewmodels\\nearmissreportlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:viewmodels\\nearmissreportlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\viewmodels\\reportdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:viewmodels\\reportdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\viewmodels\\nearmissreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\viewmodels\\nearmissreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:viewmodels\\nearmissreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\viewmodels\\editnearmissreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:viewmodels\\editnearmissreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\viewmodels\\nearmissreportlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:viewmodels\\nearmissreportlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Data\\Migrations\\20240503081738_StatusUpdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20240503081738_StatusUpdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\data\\migrations\\20240424101314_updatenearmissreporttitlecolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:data\\migrations\\20240424101314_updatenearmissreporttitlecolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\data\\migrations\\20240429052659_updateroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:data\\migrations\\20240429052659_updateroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\viewmodels\\reportdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:viewmodels\\reportdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\views\\nearmissreport\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:views\\nearmissreport\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\nemesys.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\account\\externallogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\account\\externallogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\account\\externallogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\account\\externallogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\account\\loginwithrecoverycode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\account\\loginwithrecoverycode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\account\\loginwith2fa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\account\\loginwith2fa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\account\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\account\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\account\\confirmemailchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\account\\confirmemailchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\account\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\account\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\viewmodels\\reporterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:viewmodels\\reporterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\data\\migrations\\20240422130932_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:data\\migrations\\20240422130932_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\data\\migrations\\20240422144327_test5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:data\\migrations\\20240422144327_test5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\data\\migrations\\20240424065238_addedidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:data\\migrations\\20240424065238_addedidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\data\\migrations\\20240424095555_adduseridtonearmissreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:data\\migrations\\20240424095555_adduseridtonearmissreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|c:\\users\\clare\\dropbox\\website files\\cis2055-nemesys\\nemesys.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2FE386DA-1FAE-4662-BD29-BD48A4F23704}|Nemesys.csproj|solutionrelative:nemesys.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -118,10 +250,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
@@ -134,39 +262,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-26T12:23:48.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "NearMissReport.cs",
-              "DocumentMoniker": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Models\\NearMissReport.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Models\\NearMissReport.cs",
               "RelativeDocumentMoniker": "Models\\NearMissReport.cs",
-              "ToolTip": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Models\\NearMissReport.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Models\\NearMissReport.cs",
               "RelativeToolTip": "Models\\NearMissReport.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAAACkAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T12:02:15.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateInvestigation.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Views\\NearMissReport\\CreateInvestigation.cshtml",
+              "RelativeDocumentMoniker": "Views\\NearMissReport\\CreateInvestigation.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Views\\NearMissReport\\CreateInvestigation.cshtml",
+              "RelativeToolTip": "Views\\NearMissReport\\CreateInvestigation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T09:44:55.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "NearMissReportController.cs",
-              "DocumentMoniker": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Controllers\\NearMissReportController.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Controllers\\NearMissReportController.cs",
               "RelativeDocumentMoniker": "Controllers\\NearMissReportController.cs",
-              "ToolTip": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Controllers\\NearMissReportController.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Controllers\\NearMissReportController.cs",
               "RelativeToolTip": "Controllers\\NearMissReportController.cs",
-              "ViewState": "AQIAAB4BAAAAAAAAAAAiwD0BAABIAAAA",
+              "ViewState": "AQIAAEoBAAAAAAAAAADwv3YBAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T11:59:37.786Z",
               "EditorCaption": ""
@@ -174,127 +302,140 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Areas\\Identity\\Pages\\Error.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Error.cshtml",
-              "ToolTip": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Areas\\Identity\\Pages\\Error.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Error.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-26T12:05:17.855Z",
+              "Title": "NemesysRepository.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Models\\Repositories\\NemesysRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Repositories\\NemesysRepository.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Models\\Repositories\\NemesysRepository.cs*",
+              "RelativeToolTip": "Models\\Repositories\\NemesysRepository.cs*",
+              "ViewState": "AQIAALcAAAAAAAAAAADwv+MAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T05:25:50.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "20240422130932_New.cs",
-              "DocumentMoniker": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Data\\Migrations\\20240422130932_New.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240422130932_New.cs",
-              "ToolTip": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Data\\Migrations\\20240422130932_New.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240422130932_New.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAPAAAA",
+              "Title": "INemesysRepository.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Models\\Interfaces\\INemesysRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\INemesysRepository.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Models\\Interfaces\\INemesysRepository.cs*",
+              "RelativeToolTip": "Models\\Interfaces\\INemesysRepository.cs*",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:13:48.887Z",
+              "WhenOpened": "2024-04-29T05:47:23.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ReporterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\ViewModels\\ReporterViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\ReporterViewModel.cs",
-              "ToolTip": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\ViewModels\\ReporterViewModel.cs",
-              "RelativeToolTip": "ViewModels\\ReporterViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Models\\Contexts\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\Contexts\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Models\\Contexts\\ApplicationDbContext.cs*",
+              "RelativeToolTip": "Models\\Contexts\\ApplicationDbContext.cs*",
+              "ViewState": "AQIAABYAAAAAAAAAAAAuwC8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:01:56.914Z",
+              "WhenOpened": "2024-05-03T07:23:40.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "20240422144327_Test5.cs",
-              "DocumentMoniker": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Data\\Migrations\\20240422144327_Test5.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240422144327_Test5.cs",
-              "ToolTip": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Data\\Migrations\\20240422144327_Test5.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240422144327_Test5.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Investigation.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Models\\Investigation.cs",
+              "RelativeDocumentMoniker": "Models\\Investigation.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Models\\Investigation.cs",
+              "RelativeToolTip": "Models\\Investigation.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wCUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:13:45.422Z",
+              "WhenOpened": "2024-04-29T04:20:43.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "20240424065238_AddedIdentity.cs",
-              "DocumentMoniker": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Data\\Migrations\\20240424065238_AddedIdentity.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240424065238_AddedIdentity.cs",
-              "ToolTip": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Data\\Migrations\\20240424065238_AddedIdentity.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240424065238_AddedIdentity.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:13:43.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20240424095555_AddUserIdToNearMissReports.cs",
-              "DocumentMoniker": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Data\\Migrations\\20240424095555_AddUserIdToNearMissReports.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240424095555_AddUserIdToNearMissReports.cs",
-              "ToolTip": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Data\\Migrations\\20240424095555_AddUserIdToNearMissReports.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240424095555_AddUserIdToNearMissReports.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:13:41.474Z",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Views\\NearMissReport\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\NearMissReport\\Details.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Views\\NearMissReport\\Details.cshtml",
+              "RelativeToolTip": "Views\\NearMissReport\\Details.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T07:00:20.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "20240424101314_UpdateNearMissReportTitleColumn.cs",
-              "DocumentMoniker": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Data\\Migrations\\20240424101314_UpdateNearMissReportTitleColumn.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240424101314_UpdateNearMissReportTitleColumn.cs",
-              "ToolTip": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Data\\Migrations\\20240424101314_UpdateNearMissReportTitleColumn.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240424101314_UpdateNearMissReportTitleColumn.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAYwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:13:37.979Z",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Views\\NearMissReport\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\NearMissReport\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Views\\NearMissReport\\Edit.cshtml",
+              "RelativeToolTip": "Views\\NearMissReport\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T08:10:06.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T06:15:55.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "InvestigationViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\ViewModels\\InvestigationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\ViewModels\\InvestigationViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\InvestigationViewModel.cs",
-              "ToolTip": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\ViewModels\\InvestigationViewModel.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\ViewModels\\InvestigationViewModel.cs",
               "RelativeToolTip": "ViewModels\\InvestigationViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T12:01:45.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
+              "Title": "NearMissReportViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\ViewModels\\NearMissReportViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\NearMissReportViewModel.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\ViewModels\\NearMissReportViewModel.cs",
+              "RelativeToolTip": "ViewModels\\NearMissReportViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T12:01:46.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "EditNearMissReportViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\ViewModels\\EditNearMissReportViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\ViewModels\\EditNearMissReportViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\EditNearMissReportViewModel.cs",
-              "ToolTip": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\ViewModels\\EditNearMissReportViewModel.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\ViewModels\\EditNearMissReportViewModel.cs",
               "RelativeToolTip": "ViewModels\\EditNearMissReportViewModel.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAA2wCgAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T12:01:30.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "NearMissReportListViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\ViewModels\\NearMissReportListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\ViewModels\\NearMissReportListViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\NearMissReportListViewModel.cs",
-              "ToolTip": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\ViewModels\\NearMissReportListViewModel.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\ViewModels\\NearMissReportListViewModel.cs",
               "RelativeToolTip": "ViewModels\\NearMissReportListViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -303,68 +444,476 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T05:22:22.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240503081738_StatusUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Data\\Migrations\\20240503081738_StatusUpdate.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240503081738_StatusUpdate.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Data\\Migrations\\20240503081738_StatusUpdate.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240503081738_StatusUpdate.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T08:17:38.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240424101314_UpdateNearMissReportTitleColumn.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Data\\Migrations\\20240424101314_UpdateNearMissReportTitleColumn.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240424101314_UpdateNearMissReportTitleColumn.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Data\\Migrations\\20240424101314_UpdateNearMissReportTitleColumn.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240424101314_UpdateNearMissReportTitleColumn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T12:13:37.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240429052659_updateRoles.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Data\\Migrations\\20240429052659_updateRoles.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240429052659_updateRoles.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Data\\Migrations\\20240429052659_updateRoles.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240429052659_updateRoles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T05:27:00.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "ReportDashboardViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\ViewModels\\ReportDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\ViewModels\\ReportDashboardViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\ReportDashboardViewModel.cs",
-              "ToolTip": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\ViewModels\\ReportDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\ViewModels\\ReportDashboardViewModel.cs",
               "RelativeToolTip": "ViewModels\\ReportDashboardViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T12:01:54.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "NearMissReportViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\ViewModels\\NearMissReportViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\NearMissReportViewModel.cs",
-              "ToolTip": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\ViewModels\\NearMissReportViewModel.cs",
-              "RelativeToolTip": "ViewModels\\NearMissReportViewModel.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAkwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:01:46.363Z",
+              "DocumentIndex": 19,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T05:39:13.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T11:59:35.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T05:39:12.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAALEBAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T07:22:28.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Views\\NearMissReport\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\NearMissReport\\Index.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Views\\NearMissReport\\Index.cshtml",
+              "RelativeToolTip": "Views\\NearMissReport\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T05:37:57.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T05:38:02.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwDoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T05:58:40.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T04:21:59.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAHgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T04:31:16.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T06:21:04.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Program.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAADwvz0AAAAAAAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAAQwEoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T11:57:29.372Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Nemesys",
-              "DocumentMoniker": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Nemesys.csproj",
+              "DocumentIndex": 30,
+              "Title": "ExternalLogin.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T05:30:12.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T05:22:56.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ExternalLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T05:22:30.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LoginWithRecoveryCode.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T05:22:51.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoginWith2fa.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T05:22:45.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Lockout.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T05:22:44.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ForgotPasswordConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T05:22:42.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T05:22:41.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T05:22:26.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ConfirmEmailChange.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T05:22:24.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_StatusMessage.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T05:22:09.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T05:22:06.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ReporterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\ViewModels\\ReporterViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ReporterViewModel.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\ViewModels\\ReporterViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ReporterViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T12:01:56.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T12:23:48.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T04:45:57.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20240422130932_New.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Data\\Migrations\\20240422130932_New.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240422130932_New.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Data\\Migrations\\20240422130932_New.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240422130932_New.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T12:13:48.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Areas\\Identity\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T12:05:17.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20240422144327_Test5.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Data\\Migrations\\20240422144327_Test5.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240422144327_Test5.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Data\\Migrations\\20240422144327_Test5.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240422144327_Test5.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T12:13:45.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20240424065238_AddedIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Data\\Migrations\\20240424065238_AddedIdentity.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240424065238_AddedIdentity.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Data\\Migrations\\20240424065238_AddedIdentity.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240424065238_AddedIdentity.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T12:13:43.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20240424095555_AddUserIdToNearMissReports.cs",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Data\\Migrations\\20240424095555_AddUserIdToNearMissReports.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240424095555_AddUserIdToNearMissReports.cs",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Data\\Migrations\\20240424095555_AddUserIdToNearMissReports.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240424095555_AddUserIdToNearMissReports.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T12:13:41.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Nemesys.csproj",
+              "DocumentMoniker": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Nemesys.csproj",
               "RelativeDocumentMoniker": "Nemesys.csproj",
-              "ToolTip": "C:\\Users\\clare\\Downloads\\cis2055-nemesys (2)update 22april\\cis2055-nemesys (1)\\cis2055-nemesys\\Nemesys.csproj",
+              "ToolTip": "C:\\Users\\clare\\Dropbox\\Website files\\cis2055-nemesys\\Nemesys.csproj",
               "RelativeToolTip": "Nemesys.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-26T11:31:29.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T11:31:29.116Z"
             }
           ]
         }

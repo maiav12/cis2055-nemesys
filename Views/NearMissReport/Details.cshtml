@@ -31,5 +31,15 @@
         <a asp-controller="NearMissReport" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-outline-primary">Edit</a>
     }
 }
+@if (User.IsInRole("Admin"))
+{
+    <!-- Button to add investigation -->
+    <a asp-action="CreateInvestigation" asp-route-id="@Model.Id" class="btn btn-primary">Add Investigation</a>
+
+    <!-- Button to update status -->
+    <a asp-action="UpdateStatus" asp-route-reportId="@Model.Id" asp-route-status="Closed" class="btn btn-success">Mark as Closed</a>
+    <a asp-action="UpdateStatus" asp-route-reportId="@Model.Id" asp-route-status="BeingInvestigated" class="btn btn-warning">Mark as Being Investigated</a>
+    <a asp-action="UpdateStatus" asp-route-reportId="@Model.Id" asp-route-status="NoActionRequired" class="btn btn-secondary">Mark as No Action Required</a>
+}
 
 <a asp-controller="NearMissReport" asp-action="Index" class="btn btn-primary">Back to list</a>

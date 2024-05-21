@@ -3,6 +3,11 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Nemesys.Models
 {
+    public enum UserRole
+    {
+        Admin,
+        User
+    }
     public class Investigation
     {
         public int Id { get; set; }
@@ -30,6 +35,8 @@ namespace Nemesys.Models
 
         // Navigation property for associated NearMissReport
         public NearMissReport NearMissReport { get; set; }
+
+        public UserRole Role { get; set; }
 
 
     }

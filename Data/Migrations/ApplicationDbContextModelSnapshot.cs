@@ -157,18 +157,18 @@ namespace Nemesys.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "27332294-dbf7-4e17-ae9a-ea9ee1577b1b",
+                            Id = "5e8165cb-313c-4e36-886c-88d32c78f6ea",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d93244a4-993f-440e-83a7-e5feaf797023",
+                            ConcurrencyStamp = "9db8ec31-386a-4db1-b081-8e193db7501d",
                             Email = "admin@mail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@MAIL.COM",
                             NormalizedUserName = "ADMIN@MAIL.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFWEqhcyU4SXO+tG7xwR82b6Pp1e/xUgaJGmyRmY9MoDDRkjPyXePwBbUZpW8+2u8g==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELQ4FjNo9j01LjydKHrTbzOGDleY+Hj9WZu71BK9u53et6mke1o+E1VtsriVcbHK2w==",
                             PhoneNumber = "",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "1ec4659e-1736-430c-9af9-e26006dba26e",
+                            SecurityStamp = "8742992a-9e99-4860-97a3-52436f0cd08a",
                             TwoFactorEnabled = false,
                             UserName = "admin@mail.com"
                         });
@@ -240,7 +240,7 @@ namespace Nemesys.Data.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "27332294-dbf7-4e17-ae9a-ea9ee1577b1b",
+                            UserId = "5e8165cb-313c-4e36-886c-88d32c78f6ea",
                             RoleId = "d234f58e-7373-4ee5-98f0-c17892784b05"
                         });
                 });
@@ -295,6 +295,9 @@ namespace Nemesys.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Role")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("NearMissReportId");
@@ -305,12 +308,13 @@ namespace Nemesys.Data.Migrations
                         new
                         {
                             Id = 1,
-                            DateOfAction = new DateTime(2024, 4, 24, 10, 13, 11, 715, DateTimeKind.Utc).AddTicks(9320),
+                            DateOfAction = new DateTime(2024, 5, 3, 8, 17, 37, 381, DateTimeKind.Utc).AddTicks(3480),
                             Description = "Example Investigation Description",
                             InvestigatorEmail = "investigator@email.com",
                             InvestigatorPhone = "987-654-3210",
                             NearMissReportId = 1,
-                            ReportStatus = "Open"
+                            ReportStatus = "Open",
+                            Role = 0
                         });
                 });
 
@@ -346,6 +350,9 @@ namespace Nemesys.Data.Migrations
                     b.Property<string>("ReporterPhone")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Role")
+                        .HasColumnType("int");
+
                     b.Property<string>("Status")
                         .HasColumnType("nvarchar(max)");
 
@@ -374,13 +381,14 @@ namespace Nemesys.Data.Migrations
                         new
                         {
                             Id = 1,
-                            DateAndTimeSpotted = new DateTime(2024, 4, 24, 10, 13, 11, 715, DateTimeKind.Utc).AddTicks(9260),
-                            DateOfReport = new DateTime(2024, 4, 24, 10, 13, 11, 715, DateTimeKind.Utc).AddTicks(9255),
+                            DateAndTimeSpotted = new DateTime(2024, 5, 3, 8, 17, 37, 381, DateTimeKind.Utc).AddTicks(3304),
+                            DateOfReport = new DateTime(2024, 5, 3, 8, 17, 37, 381, DateTimeKind.Utc).AddTicks(3299),
                             Description = "Example Description",
                             Location = "Example Location",
                             OptionalPhoto = "/images/seed2.jpg",
                             ReporterEmail = "example@email.com",
                             ReporterPhone = "123-456-7890",
+                            Role = 0,
                             Status = "Open",
                             Title = "Example Title",
                             TypeOfHazard = "UnsafeAct",
